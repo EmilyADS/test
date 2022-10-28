@@ -5,4 +5,4 @@ on: [push]
 jobs:
   testando:
     secrets: inherit
-    uses: EmilyADS/sfdx-actions-test/blob/main/.github/workflows/inserindo.yml@main
+    uses: EmilyADS/sfdx-actions-test/.github/workflows/inserindo.yml@main
