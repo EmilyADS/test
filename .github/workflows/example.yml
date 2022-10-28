@@ -1,0 +1,8 @@
+name: "teste"
+
+on: [push]
+
+jobs:
+  testando:
+    secrets: inherit
+    uses: EmilyADS/sfdx-actions-test/blob/main/.github/workflows/inserindo.yml@main
